@@ -13,6 +13,6 @@ class Expendedor{
 public class Tarea2 {
     public static void main(String[] args) {
     }
-    
+    Moneda m = new Moneda() {};
 }
->>>>>>> 777203c2fa262c41a033128ff2d257a6609b8a8d
+
