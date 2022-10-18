@@ -1,1 +1,1 @@
-# Nicolás Jarpa - Pedro Gajardos
+# Nicolás Jarpa - Pedro Gajardo
