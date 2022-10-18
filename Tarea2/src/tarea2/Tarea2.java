@@ -1,20 +1,40 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package tarea2;
+import java.util.ArrayList;
+abstract class Bebida{
+    
+}
+class Sprite extends Bebida{
+    
+}
+class Fanta extends Bebida{
+    
+}
+class CocaCola extends Bebida{
+    
+}
+abstract class Moneda{
 
-/**
- *
- * @author Nicolás Jarpa
- */
+} 
+ class Moneda100 extends Moneda{
+    
+}
+ class Moneda500 extends Moneda{
+    
+}
+ class Moneda1000 extends Moneda{
+    
+}
+
+
+
+
+
+
+
+
+
 public class Tarea2 {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
     }
     
 }
