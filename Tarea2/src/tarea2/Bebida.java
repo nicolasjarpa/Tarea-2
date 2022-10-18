@@ -3,20 +3,48 @@ package tarea2;
 
 
 abstract class Bebida {
-    
-    public Bebida(){
+ private int xd;
+    public Bebida(int a){
+        xd=a;
         
+    }
+    public int getSerie(){
+        return xd;
+    }
+    public String beber(){
+        return "sabor: ";
     }
 }
 
-class fanta extends Bebida{
-
+class Fanta extends Bebida{
+        public Fanta(int a){
+    super(a);
 }
-
-class coca extends Bebida{
+public String beber(){
     
+return super.beber()+"Fanta";
+}
 }
 
-class sprite extends Bebida{
-    
+
+class Coca extends Bebida{
+ public Coca(int a){
+    super(a);
 }
+public String beber(){
+    
+return super.beber()+"coca";
+}
+}
+
+
+class Sprite extends Bebida{
+   public Sprite(int a){
+    super(a);
+}
+public String beber(){
+    
+return super.beber()+"sprite";
+}
+}
+
