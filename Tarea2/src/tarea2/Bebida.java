@@ -8,3 +8,15 @@ abstract class Bebida {
         
     }
 }
+
+class fanta extends Bebida{
+
+}
+
+class coca extends Bebida{
+    
+}
+
+class sprite extends Bebida{
+    
+}
