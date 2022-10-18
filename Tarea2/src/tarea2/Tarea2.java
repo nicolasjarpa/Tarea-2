@@ -1,36 +1,12 @@
 package tarea2;
 import java.util.ArrayList;
-abstract class Bebida{
+
+class Expendedor{
     
+    public Expendedor(){
+        
+    }
 }
-class Sprite extends Bebida{
-    
-}
-class Fanta extends Bebida{
-    
-}
-class CocaCola extends Bebida{
-    
-}
-abstract class Moneda{
-
-} 
- class Moneda100 extends Moneda{
-    
-}
- class Moneda500 extends Moneda{
-    
-}
- class Moneda1000 extends Moneda{
-    
-}
-
-
-
-
-
-
-
 
 
 public class Tarea2 {
@@ -38,4 +14,3 @@ public class Tarea2 {
     }
     
 }
->>>>>>> cb0133cd08d84f8a316ba63aa02425afd3869479
