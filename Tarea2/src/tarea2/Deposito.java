@@ -2,10 +2,6 @@
 package tarea2;
 import java.util.ArrayList;
 
-
-package tarea2;
-
-
 abstract class Bebida {
  private int xd;
     public Bebida(int a){
@@ -67,3 +63,5 @@ class Deposito{
         return n.remove(0);
     }
 }
+
+
