@@ -11,20 +11,25 @@ public Moneda(){
  public String getSerie(){
  return "serie"+m;
 }
+ public int getValor(){
+     
+        return 100;
+     
+ }
 }
 
  class Moneda100 extends Moneda{
     public int getValor(){
-        return 100;
+        return getValor();
     }
 }
  class Moneda500 extends Moneda{
      public int getValor(){
-        return 500;
+         return getValor()*5;
     }
 }
  class Moneda1000 extends Moneda{
      public int getValor(){
-        return 1000;
+        return getValor()*10;
     }
 }
