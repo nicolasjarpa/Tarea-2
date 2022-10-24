@@ -1,23 +1,20 @@
 package tarea2;
 import java.util.ArrayList;
+
 class DepositoVuelto{
-    private ArrayList <Moneda> m;
-    private int total;
-    private Moneda1000 a;
-    private Moneda500 b;
-    private Moneda100 c;
+    private Moneda m;
+    private ArrayList <Bebida> b;
+    private int vuelto;
     
     public DepositoVuelto(){
-      m = new ArrayList <Moneda>();
-      total = a.getValor()+b.getValor()+c.getValor();
+      vuelto = 0;
     }
-    public void addMoneda(Moneda b){
-        m.add(b);
-    }
-    public Moneda vuelto(){
-        if(total == 0){
+    public Moneda vuelto(int precio){
+        
+        if(m.getValor()){
+        
+            vuelto = m.getValor() - precio;
             return null;
         }
-        return m.remove(0);
     }
 }
