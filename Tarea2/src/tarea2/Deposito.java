@@ -10,17 +10,17 @@ class Deposito{
     public void addBebida(Bebida b){
         n.add(b);
     }
-    public Bebida getBebida() throws NoHayBebidaException{
-        
-        if(n.isEmpty()){
-            throw new NoHayBebidaException("NoHayBebidaException");
+    public Bebida getBebida(){
+
+        if(n.size()==0){
+            return null;
         }
         
-        else{
-            
-            return n.remove(0);
-        }
+        return n.remove(0);
+        
     }
+
 }
+   
 
 

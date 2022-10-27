@@ -4,32 +4,45 @@ package tarea2;
 import java.util.ArrayList;
 
 abstract class Moneda{
-    private Moneda m;
-public Moneda(){
+
     
-}
- public String getSerie(){
- return "serie"+m;
-}
- public int getValor(){
+    public Moneda(){
+    
+    }
+    public String getSerie(){
+        return "serie"+this.toString();
+    }
+    public int getValor(){
      
         return 100;
      
- }
+    }
 }
 
  class Moneda100 extends Moneda{
+     public Moneda100(){
+        super();
+    }
+     
     public int getValor(){
-        return getValor();
+        return super.getValor();
     }
 }
  class Moneda500 extends Moneda{
+     public Moneda500(){
+         super();
+     }
+     
      public int getValor(){
-         return getValor()*5;
+         return super.getValor()*5;
     }
 }
  class Moneda1000 extends Moneda{
+     public Moneda1000(){
+         super();
+     }
+     
      public int getValor(){
-        return getValor()*10;
+        return super.getValor()*10;
     }
 }
